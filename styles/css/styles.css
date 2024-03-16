@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+h5, h6 {
+    color: #96BB7C;
+}
+
+
+/* .container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+} */
+
+
+/* Hero section */
+header {
+    background-color: #FFF2F3;
+    margin-bottom: 116px;
+    position: relative;
+}
+
+.header-container {
+    position: relative;
+    
+}
+
+.header-nav {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu {
+    position: relative;
+    justify-content: center;
+    left: -180px;
+    margin-top: 40px;
+}
+
+
+.nav-container {
+    position: relative;
+    display: flex;
+    margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.brandname {
+    position: absolute;
+    margin-left: 196px;
+    left: 10px;
+    margin-top: -6px;
+    font-size: x-large;
+}
+
+.menu-list {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 453px;
+    gap: 20px;
+
+}
+
+.btn-authorization {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    gap: 30px;
+    margin-top: -17px;
+}
+
+.hero-nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    color: #96BB7C;
+}
+
+.join-btn {
+    width: 136px;
+    height: 52px;
+    background-color: #96BB7C;
+    border-radius: 10%;
+    border-style: none;
+    box-shadow: 0px 5px 5px #737373;
+    color: #FFFFFF;
+}
+
+.join-btn:hover {
+    cursor: pointer;
+}
+
+
+/* Hero title */
+.hero-container {
+    display: flex;
+    align-items: center;
+    margin-top: 138px;
+    margin-left: 274px;
+    max-height: 778px;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.hero-title {
+    color: #252B42;
+    max-width: 438px;
+    max-height: 160px;
+}
+
+.hero-main>p {
+    color: #737373;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.learn-more-btn {
+    border-radius: 2px;
+    border-color: #96BB7C;
+    background: transparent;
+    color:#96BB7C ;
+    width: 136px;
+    height: 52px;
+    border-radius: 10%;
+}
+
+
+/* Approdable section */
+.approdable-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 196px;
+    max-height: 672px;
+}
+
+.approdable-text {
+    margin-right: 30px;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card-left, .card-right {
+    border: 0 solid;
+    box-shadow: -10px 16px 20px rgba(0, 0, 0, 0.1);
+    height: 292px;
+    width: 250px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 42px;
+    padding-bottom: 34px;
+}
+
+.card-left {
+    margin-right: 10px;
+}
+
+.card-left>h5 {
+    font-size: large;
+    color: black;
+}
+
+.card-right>h5 {
+    font-size: large;
+    color: black;
+}
+
+/* .approdable-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 116px;
+}
+
+.approdable-text>h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.approdable-text {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items:start;
+    left: 100px;
+    position: absolute;
+} */
+
+
+/* Video section */
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    margin-left: 196px;
+    margin-bottom: 156px;
+    max-height: 818px;
+    max-width: 1060px;
+}
+
+.video-text {
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    width: 382px;
+    height: 296px;
+}
+
+
+/* Paints section */
+
+/* .paints-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.paints-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 196px;
+    margin-bottom: 96px;
+}
+
+.cards-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1032px;
+    max-height: 402px;
+    /* gap: 21%; */
+}
+
+.card-paint-left, .card-paint-right {
+    display: flex;
+    flex-direction: row;
+}
