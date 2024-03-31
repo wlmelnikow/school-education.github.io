@@ -1,8 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
+    max-width: 1398px;
+    background-color: #fff2f3;
 }
+
+/* html {
+    overflow: hidden;
+} */
 
 a {
     text-decoration: none;
@@ -19,24 +24,27 @@ h5, h6 {
 }
 
 
-/* .container {
+.container {
     width: 100%;
     max-width: 1288px;
-    margin: 0 auto;
+    margin-left: 96px;
+    margin-right: 96px;
     padding: 0 24px;
-} */
+}
 
 
 /* Hero section */
 header {
-    background-color: #FFF2F3;
+    /* background-color: #FFF2F3; */
     margin-bottom: 116px;
     position: relative;
 }
 
+
 .header-container {
-    position: relative;
-    
+    width: 100%;
+    height: 100%;
+    background-color: #fff2f3;
 }
 
 .header-nav {
@@ -45,6 +53,16 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+    background-color: #fff2f3;
+}
+
+.hero-img {
+    display: flex;
+    justify-content:right;
+    align-items: end;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 32%;
 }
 
 .header-menu {
@@ -231,6 +249,10 @@ header {
     max-width: 1060px;
 }
 
+.video-container > img {
+    border-bottom-right-radius: 35%;
+}
+
 .video-text {
     display: flex;
     flex-direction:column;
@@ -276,6 +298,13 @@ header {
 
 
 /* Designers section */
+.designers-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .designers-text {
     display: flex;
     flex-direction: column;
@@ -289,6 +318,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 90px;
 }
 
 .left-designer, .right-designer {
@@ -299,8 +329,15 @@ header {
     margin-bottom: 112px;
 }
 
+.man-photo, .woman-photo {
+    border-radius: 50%;
+}
 
 /* Team section */
+.team-section {
+    margin-bottom: 190px;
+}
+
 .team-text {
     display: flex;
     flex-direction: column;
@@ -313,6 +350,7 @@ header {
 .team-list {
     display: flex;
     max-width: 1050px;
+    max-height: 400px;
     justify-content: center;
     align-items: center;
     margin-left: 180px;
@@ -334,6 +372,10 @@ header {
 
 .team-list>.card>.photo-people {
     border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+
 }
 
 .team-list>.card>h5 {
@@ -346,4 +388,28 @@ header {
     justify-content: center;
     flex-direction: row;
     margin-bottom: 30px;
+}
+
+
+/* Footer section */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav > ul {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav > ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
