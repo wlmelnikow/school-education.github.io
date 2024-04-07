@@ -32,9 +32,7 @@ h6 {
 
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 195px 0 195px;
 }
 
 
@@ -385,7 +383,7 @@ header,
 
 /* Video section */
 .video-section {
-    margin-top: auto;
+    margin-bottom: 108px;
     height: 818px;
     display: flex;
     justify-content: center;
@@ -420,21 +418,18 @@ header,
 
 
 /* Paints section */
-
-/* .paints-container {
+.paints-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .paints-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    margin-left: 196px;
-    margin-bottom: 96px;
+    align-items: flex-start;
 }
 
 .cards-section {
