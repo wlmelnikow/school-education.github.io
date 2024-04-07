@@ -195,7 +195,6 @@ header,
     font-weight: bold;
     line-height: 1.2;
     text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5)
-
 }
 
 .hero-main {
@@ -291,17 +290,17 @@ header,
 }
 
 .button-login:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 
 /* Approdable section */
 .approdable-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 160px;
-        margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 .approdable-text {
@@ -311,6 +310,18 @@ header,
     gap: 34px;
 }
 
+.red-line {
+    width: 94px;
+    height: 8px;
+    background-color: #E74040;
+}
+
+.card-red-line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+
 .cards-container {
     display: flex;
     gap: 30px;
@@ -318,11 +329,17 @@ header,
 
 .card-left,
 .card-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     border: 0 solid;
     box-shadow: -10px 16px 20px rgba(0, 0, 0, 0.1);
     height: 292px;
     width: 250px;
-    padding: 34px 40px 42px 34px;;
+    padding: 34px 40px 42px 34px;
+    ;
+    gap: 20px;
 }
 
 .card-left {
