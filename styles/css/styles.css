@@ -136,7 +136,7 @@ header {
 }
 
 .hero-a:hover {
-    color: yellow;
+    color: rgb(254, 134, 36);
 }
 
 .hero-nav-btn {
@@ -153,9 +153,8 @@ header {
     width: 136px;
     height: 52px;
     background-color: #96BB7C;
-    border-radius: 10%;
+    border-radius: 10px;
     border-style: none;
-    box-shadow: 0px 5px 5px #737373;
     color: #FFFFFF;
 }
 
@@ -252,13 +251,12 @@ header,
 }
 
 .learn-more-btn {
-    border-radius: 2px;
     border-color: #96BB7C;
     background: transparent;
     color: #96BB7C;
     width: 136px;
     height: 52px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .button {
@@ -281,7 +279,7 @@ header,
     color: #FFFFFF;
     background-color: #96BB7C;
     gap: 10px;
-    box-shadow: 0px 5px 5px #737373;
+    box-shadow: 0px 3px 5px #737373;
 }
 
 .button-login {
@@ -289,6 +287,10 @@ header,
     text-decoration: none;
     color: #96BB7C;
     gap: 20px;
+}
+
+.button-login:hover {
+    text-decoration:underline;
 }
 
 
