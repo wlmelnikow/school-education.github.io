@@ -11,6 +11,7 @@ p {
     padding: 0;
 }
 
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -296,21 +297,23 @@ header,
 
 /* Approdable section */
 .approdable-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 160px;
-    margin-bottom: 196px;
-    max-height: 672px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 160px;
+        margin-bottom: 160px;
 }
 
 .approdable-text {
+    display: flex;
+    flex-direction: column;
     margin-right: 30px;
+    gap: 34px;
 }
 
 .cards-container {
     display: flex;
+    gap: 30px;
 }
 
 .card-left,
@@ -319,10 +322,7 @@ header,
     box-shadow: -10px 16px 20px rgba(0, 0, 0, 0.1);
     height: 292px;
     width: 250px;
-    padding-top: 35px;
-    padding-left: 40px;
-    padding-right: 42px;
-    padding-bottom: 34px;
+    padding: 34px 40px 42px 34px;;
 }
 
 .card-left {
