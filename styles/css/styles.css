@@ -310,6 +310,10 @@ header,
     gap: 34px;
 }
 
+.approdable-text h2 {
+    font-size: xxx-large;
+}
+
 .red-line {
     width: 94px;
     height: 8px;
@@ -380,19 +384,25 @@ header,
 
 
 /* Video section */
+.video-section {
+    margin-top: auto;
+    height: 818px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 560px;
-    margin-left: 196px;
-    margin-bottom: 156px;
-    max-height: 818px;
-    max-width: 1060px;
+    flex-direction: row;
+    gap: 144px;
 }
 
 .video-container>img {
-    border-bottom-right-radius: 35%;
+    margin: 0px 0px -160px 0px;
+    border-bottom-right-radius: 2px;
 }
 
 .video-text {
@@ -401,6 +411,11 @@ header,
     justify-content: end;
     width: 382px;
     height: 296px;
+    gap: 34px;
+}
+
+.video-text h2 {
+    font-size: xxx-large;
 }
 
 
