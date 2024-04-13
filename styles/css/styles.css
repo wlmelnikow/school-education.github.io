@@ -23,6 +23,7 @@ a {
 ul {
     display: flex;
     list-style-type: none;
+    margin-top: 64px;
 }
 
 h5,
@@ -427,6 +428,7 @@ header,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 160px;
 }
 
 .paints-text {
@@ -462,14 +464,11 @@ header,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 26px 26px 60px 26px;
-    gap: 10px;
-    margin
-}
-
-.card-paint-text img {
-    width: 50px;
-    height: 20px;
+    margin-top: 126px;
+    padding-left: 24px;
+    gap: 14px;
+    width: 242px;
+    height: 26px;
 }
 
 .card-paint-text h6 {
@@ -477,6 +476,61 @@ header,
     flex-direction: row;
     align-items: center;
     gap: 36px;
+    font-size: 14px;
+}
+
+.card-paint-text .amount-sales {
+    gap: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+.card-paint-text .title-h5 {
+    font-size: 18px;
+    color: #252B42;
+}
+
+.card-paint-text h5 {
+    display: flex;
+    font-size: 18px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+
+.card-paint-text p {
+    color: #737373;
+}
+
+.card-paint-text .price {
+    font-size: 18px;
+    color: #FFAB71;
+    margin-left: 10px;
+}
+
+.card-paint-text span {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: #737373;
+}
+
+.paint-button {
+    display: flex;
+    justify-content: center;
+    width: 146px;
+    border: solid 1px #96BB7C;
+    border-radius: 80px;
+    background: none;
+    padding: 20px 10px;
+}
+
+.section-title-btn {
+    gap: 2px;
+}
+
+.card-paint-text .section-title-h6 {
+    gap: 10px;
 }
 
 /* Designers section */
@@ -516,6 +570,7 @@ header,
 .woman-photo {
     border-radius: 50%;
 }
+
 
 /* Team section */
 .team-section {
