@@ -263,14 +263,6 @@ header,
 }
 
 .button {
-    /* padding: 10px 30px;
-    text-decoration: none;
-    color: white;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px; */
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,28 +354,6 @@ header,
     font-size: large;
     color: black;
 }
-
-/* .approdable-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 116px;
-}
-
-.approdable-text>h2 {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.approdable-text {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    align-items:start;
-    left: 100px;
-    position: absolute;
-} */
 
 
 /* Video section */
@@ -627,6 +597,7 @@ header,
     justify-content: center;
     flex-direction: row;
     margin-bottom: 30px;
+    gap: 10px;
 }
 
 
