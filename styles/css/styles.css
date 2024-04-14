@@ -541,34 +541,41 @@ header,
     flex-wrap: wrap;
 }
 
-.designers-text {
+.designers-section {
+    margin-bottom: 160px;
+}
+
+.designers-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    margin-left: 196px;
+    align-items:flex-start;
     margin-bottom: 96px;
+    gap: 10px;
 }
 
 .designers-review {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 180px;
+    color: #737373;
 }
 
-.left-designer,
+.left-designer, 
 .right-designer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 112px;
+    gap: 16px;
 }
 
 .man-photo,
 .woman-photo {
     border-radius: 50%;
+    margin-bottom: 30px;
 }
 
 
@@ -582,18 +589,14 @@ header,
     flex-direction: column;
     justify-content: left;
     align-items: start;
-    margin-left: 196px;
-    margin-bottom: -10px;
+    margin-bottom: 112px;
+    gap: 10px;
 }
 
 .team-list {
     display: flex;
-    max-width: 1050px;
-    max-height: 400px;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    margin-left: 180px;
-    gap: 30px;
 }
 
 .team-list>.card {
@@ -601,12 +604,8 @@ header,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 238px;
-    max-height: 374px;
-    /* margin-left: 196px; */
-    margin-top: 112px;
-    border-radius: 0 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 00px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px;
+    gap: 10px;
 }
 
 .team-list>.card>.photo-people {
@@ -634,12 +633,13 @@ header,
 .footer-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
 }
 
 .footer-nav>ul {
     display: flex;
-    gap: 90px;
+    gap: 80px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -650,5 +650,17 @@ header,
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.footer-nav>ul>li>h5 {
+    color: #252B42;
+    font-size: 16px;
+}
+
+.footer-nav>ul>li>a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #737373;
 }
