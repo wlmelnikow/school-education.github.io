@@ -40,6 +40,23 @@ h6 {
     margin: 0 195px 0 195px;
 }
 
+button:hover, a:hover {
+    cursor: pointer;
+}
+
+.learn-more-link {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    text-decoration: none;
+}
+
+.learn-more-link img {
+    width: 10px; 
+    height: auto;
+    color: #96BB7C;
+}
+
 
 /* Hero section */
 header {
@@ -502,6 +519,7 @@ header,
 
 .card-paint-text .section-title-h6 {
     gap: 10px;
+    margin: 0px;
 }
 
 /* Designers section */
