@@ -170,7 +170,7 @@ header {
     color: #96BB7C;
 }
 
-.join-btn {
+/* .join-btn {
     width: 136px;
     height: 52px;
     background-color: #96BB7C;
@@ -181,7 +181,7 @@ header {
 
 .join-btn:hover {
     cursor: pointer;
-}
+} */
 
 
 header,
@@ -678,7 +678,8 @@ header,
 
 
 /* Modal window */
-.join-modal-window {
+
+.modal-window {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -690,7 +691,7 @@ header,
     transition: .4s ease-in-out;
 }
 
-.join-modal-window.active {
+.modal-window.active {
     transform: translateY(0%) scale(100%);
     background-color: rgb(0, 0, 0, .8);
 }
@@ -701,7 +702,7 @@ header,
     height: 100%;
 }
 
-.join-modal-body {
+.modal-body {
     margin: auto;
     width: 500px;
     background-color: #fff;
@@ -711,14 +712,14 @@ header,
     position: relative;
 }
 
-.join-modal-body p {
+.modal-body p {
     font-size: 28px;
     font-weight: 600;
     color: #222620;
     margin-bottom: 40px;
 }
 
-.join-modal-body input {
+.modal-body input {
     display: block;
     margin: 25px auto 0px auto;
     width: 330px;
@@ -732,11 +733,11 @@ header,
     color: #89989f;
 }
 
-.join-modal-body input:focus {
+.modal-body input:focus {
     outline: none;
 }
 
-.join-modal-body button {
+.modal-body button {
     cursor: pointer;
     display: block;
     width: 330px;
