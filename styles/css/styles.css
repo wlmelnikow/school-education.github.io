@@ -170,7 +170,7 @@ header {
     color: #96BB7C;
 }
 
-.join-btn {
+/* .join-btn {
     width: 136px;
     height: 52px;
     background-color: #96BB7C;
@@ -181,7 +181,8 @@ header {
 
 .join-btn:hover {
     cursor: pointer;
-}
+} */
+
 
 header,
 .hero-container {
@@ -673,4 +674,88 @@ header,
 .social-icons-right {
     display: flex;
     gap: 10px;
+}
+
+
+/* Modal window */
+
+.modal-window {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+}
+
+.modal-window.active {
+    transform: translateY(0%) scale(100%);
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.modal-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body {
+    margin: auto;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+
+.modal-body p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222620;
+    margin-bottom: 40px;
+}
+
+.modal-body input {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89989f;
+}
+
+.modal-body input:focus {
+    outline: none;
+}
+
+.modal-body button {
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.close-join-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
 }
