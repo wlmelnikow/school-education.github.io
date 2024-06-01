@@ -22,8 +22,8 @@
                 </ul>
             </div>
             <div class="hero-btn">
-                <a href="#login" class="button-login">Login </a>
-                <a href="#joinus" class="button">JOIN US <img src="./styles/images/icon-arrow-btn.png" alt=""></a>
+                <a href="#login" class="">Login </a>
+                <a href="#joinus" class="button open-modal">JOIN US <img src="./styles/images/icon-arrow-btn.png" alt=""></a>
             </div>
         </nav>
     </header>
@@ -34,8 +34,11 @@
             <h1 class="hero-title">Best&nbsp;Learning Opportunities</h1>
             <p>Our goal is to make online <br> education work for everyone</p>
             <div class="hero-btns">
-                <button type="button" class="join-btn">Join us</button>
-                <button type="button" class="learn-more-btn">Learn More</button>
+                <button type="button" class="button open-modal">Join us</button>
+                <button class="paint-button" type="button">
+                    <h6 class="section-title-h6">Learn More <img
+                            src="./styles/images/learn-more-mini.png" alt=""></h6>
+                </button>
             </div>
         </div>
         <img class="hero-img" src="./styles/images/hero-image.png" alt="schoolgirl-smile-with-the-books">
@@ -314,6 +317,28 @@
             <a href="#"><img src="./styles/images/twitter.png" alt="twitter-icon"></a>
         </div>
     </div>
+
+
+<!-- MODAL WINDOW BLOCK -->
+
+    <div class="modal-window">
+        <div class="modal-container">
+            <div class="modal-body">
+                <p></p>
+                <form action="">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Surname">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone number">
+                    <button>Confirm</button>
+                </form>
+
+                <div class="close-join-modal">&#10006</div>
+            </div>
+        </div>
+    </div>
+
+<script src="./script.js"></script>
 </body>
 
 </html>
