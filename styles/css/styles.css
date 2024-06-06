@@ -289,6 +289,7 @@ header,
     border: solid #96BB7C;
     border-radius: 6px;
     font-weight: bold;
+    font-size: 16px;
     color: #FFFFFF;
     background-color: #96BB7C;
     gap: 10px;
@@ -570,6 +571,7 @@ header,
 
 
 /* Team section */
+
 .team-section {
     margin-bottom: 190px;
 }
@@ -621,6 +623,7 @@ header,
 
 
 /* Footer section */
+
 .footer-container {
     display: flex;
     align-items: center;
@@ -797,7 +800,6 @@ h6 {
     font-size: 16px;
 }
 
-
 .container {
     margin: 0 195px 0 195px;
 }
@@ -931,20 +933,6 @@ header {
 .login-btn {
     color: #96BB7C;
 }
-
-/* .join-btn {
-    width: 136px;
-    height: 52px;
-    background-color: #96BB7C;
-    border-radius: 10px;
-    border-style: none;
-    color: #FFFFFF;
-}
-
-.join-btn:hover {
-    cursor: pointer;
-} */
-
 
 header,
 .hero-container {
@@ -1266,16 +1254,6 @@ header,
     color: #737373;
 }
 
-.paint-button {
-    display: flex;
-    justify-content: center;
-    width: 146px;
-    border: solid 1px #96BB7C;
-    border-radius: 80px;
-    background: none;
-    padding: 20px 10px;
-}
-
 .section-title-btn {
     gap: 2px;
 }
@@ -1440,30 +1418,6 @@ header,
 
 
 /* Modal window */
-
-.modal-window {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: transparent;
-    z-index: 2;
-    transform: translateY(-44.5%) scale(0);
-    transition: .4s ease-in-out;
-}
-
-.modal-window.active {
-    transform: translateY(0%) scale(100%);
-    background-color: rgb(0, 0, 0, .8);
-}
-
-.modal-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
 .modal-body {
     margin: auto;
     width: 500px;
@@ -1514,7 +1468,62 @@ header,
     background-color: orange;
 }
 
-.close-join-modal {
+
+.hero-paint-button {
+    display: flex;
+    justify-content: center;
+    width: 146px;
+    height: 58px;
+    border: solid 2px #96BB7C;
+    border-radius: 10px;
+    background: none;
+    padding: 20px 10px;
+}
+
+.hero-paint-button h6{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Learn modal window */
+
+.learn-window {
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+    border: solid gray;
+}
+
+.learn-window.active {
+    transform: translateY(0%) scale(100%);
+}
+
+.learn-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.learn-body {
+    margin: auto;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+
+.close-learn-modal {
     position: absolute;
     top: 15px;
     right: 15px;
