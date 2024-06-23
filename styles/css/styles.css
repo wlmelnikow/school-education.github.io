@@ -1572,3 +1572,11 @@ header,
 .learn-body p {
     color: #e5e5e5;
 }
+
+
+.learn-more-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0px 10px 0px;
+}
