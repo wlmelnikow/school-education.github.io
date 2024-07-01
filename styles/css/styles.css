@@ -370,6 +370,13 @@ header,
     color: black;
 }
 
+.card-left-img {
+    border: #333;
+    border-radius: 0px 10px 0px 3px;
+    /* box-shadow: #252B42; */
+    /* box-shadow: 0px 0px 10px #000; */
+}
+
 .card-right>h5 {
     font-size: large;
     color: black;
@@ -1494,7 +1501,7 @@ header,
 
 .learn-window {
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: fixed;
     left: 0;
     top: 0;
@@ -1502,7 +1509,9 @@ header,
     z-index: 2;
     transform: translateY(-44.5%) scale(0);
     transition: .4s ease-in-out;
-    border: solid gray;
+    /* border: solid gray; */
+    background-color: #333;
+    z-index: 3;
 }
 
 .learn-window.active {
@@ -1535,6 +1544,7 @@ header,
     /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
     /* box-shadow: 0px 0px 22px 1px rgba(0, 0, 255, .2); */
     box-shadow: 0px 0px 22px 1px rgba(0, 0, 255, .2);
+    z-index: 2;    
 }
 
 .close-learn-modal {
@@ -1559,16 +1569,39 @@ header,
     height: 100%;
 }
 
+
 .inputs-field {
     display: flex;
     flex-direction: column;
-    padding: 0px 10px 0px 10px;
 }
+
+.input-name, .input-phone{
+    padding: 0px 0px 0px 18px;
+    margin: 0px 0px 10px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+}
+
+
 
 .learn-body h1 {
     color: rgb(0, 0, 0, .8);
 }
 
 .learn-body p {
-    color: #e5e5e5;
+    padding: 0px 36px 0px 36px;
+}
+
+.learn-body h2 {
+    margin: 0 0 -24px 0;
+}
+
+
+.learn-more-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0px 10px 0px;
 }
